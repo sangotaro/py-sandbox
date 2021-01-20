@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "python.venvPath": ".venv",
+  "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+  "python.languageServer": "Pylance",
+  "python.formatting.provider": "black",
+  "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.flake8Args": ["--max-line-length", "88"],
+  "python.linting.mypyEnabled": true
+}
